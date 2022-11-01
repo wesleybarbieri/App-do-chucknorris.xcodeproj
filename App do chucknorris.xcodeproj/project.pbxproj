@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D0B9AB0EAC2860E42E382EC /* Pods_App_do_chucknorris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D38BC4EC374579E602E7429 /* Pods_App_do_chucknorris.framework */; };
+		8D1F66582908A79800688E06 /* ChucknorrisModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1F66572908A79800688E06 /* ChucknorrisModel.swift */; };
+		8D1F665A2908AEA800688E06 /* ChucknorrisViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1F66592908AEA800688E06 /* ChucknorrisViewModel.swift */; };
+		8DAA33C22909DF5C001DB06B /* ChucknorrisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAA33C12909DF5B001DB06B /* ChucknorrisView.swift */; };
 		8DDA935929089C4500DEC85D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDA935829089C4500DEC85D /* AppDelegate.swift */; };
 		8DDA935B29089C4500DEC85D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDA935A29089C4500DEC85D /* SceneDelegate.swift */; };
 		8DDA935D29089C4500DEC85D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDA935C29089C4500DEC85D /* ViewController.swift */; };
 		8DDA936029089C4500DEC85D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DDA935E29089C4500DEC85D /* Main.storyboard */; };
 		8DDA936229089C4A00DEC85D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DDA936129089C4A00DEC85D /* Assets.xcassets */; };
 		8DDA936529089C4A00DEC85D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DDA936329089C4A00DEC85D /* LaunchScreen.storyboard */; };
+		8DDA93722908A0F100DEC85D /* ChucknorrisAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDA93712908A0F100DEC85D /* ChucknorrisAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D38BC4EC374579E602E7429 /* Pods_App_do_chucknorris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App_do_chucknorris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE37F2D51F3031F3AD297CE /* Pods-App do chucknorris.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App do chucknorris.debug.xcconfig"; path = "Target Support Files/Pods-App do chucknorris/Pods-App do chucknorris.debug.xcconfig"; sourceTree = "<group>"; };
+		8D1F66572908A79800688E06 /* ChucknorrisModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChucknorrisModel.swift; sourceTree = "<group>"; };
+		8D1F66592908AEA800688E06 /* ChucknorrisViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChucknorrisViewModel.swift; sourceTree = "<group>"; };
+		8DAA33C12909DF5B001DB06B /* ChucknorrisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChucknorrisView.swift; sourceTree = "<group>"; };
 		8DDA935529089C4500DEC85D /* App do chucknorris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App do chucknorris.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DDA935829089C4500DEC85D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DDA935A29089C4500DEC85D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,8 @@
 		8DDA936129089C4A00DEC85D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DDA936429089C4A00DEC85D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DDA936629089C4A00DEC85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DDA93712908A0F100DEC85D /* ChucknorrisAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChucknorrisAPI.swift; sourceTree = "<group>"; };
+		ED7EAC63AC4F4519FA2D2FB6 /* Pods-App do chucknorris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App do chucknorris.release.xcconfig"; path = "Target Support Files/Pods-App do chucknorris/Pods-App do chucknorris.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D0B9AB0EAC2860E42E382EC /* Pods_App_do_chucknorris.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DE5206608A5CBF8BF8580D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FE37F2D51F3031F3AD297CE /* Pods-App do chucknorris.debug.xcconfig */,
+				ED7EAC63AC4F4519FA2D2FB6 /* Pods-App do chucknorris.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3C891C9FF708362A94B9F123 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D38BC4EC374579E602E7429 /* Pods_App_do_chucknorris.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8DDA934C29089C4500DEC85D = {
 			isa = PBXGroup;
 			children = (
 				8DDA935729089C4500DEC85D /* App do chucknorris */,
 				8DDA935629089C4500DEC85D /* Products */,
+				0DE5206608A5CBF8BF8580D9 /* Pods */,
+				3C891C9FF708362A94B9F123 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +88,59 @@
 		8DDA935729089C4500DEC85D /* App do chucknorris */ = {
 			isa = PBXGroup;
 			children = (
+				8DDA93702908A01A00DEC85D /* API */,
+				8DDA936F29089FED00DEC85D /* view */,
+				8DDA936E29089FD800DEC85D /* ViewController */,
+				8DDA936D29089FBD00DEC85D /* ViewModel */,
+				8DDA936C29089F9100DEC85D /* Model */,
 				8DDA935829089C4500DEC85D /* AppDelegate.swift */,
 				8DDA935A29089C4500DEC85D /* SceneDelegate.swift */,
-				8DDA935C29089C4500DEC85D /* ViewController.swift */,
 				8DDA935E29089C4500DEC85D /* Main.storyboard */,
 				8DDA936129089C4A00DEC85D /* Assets.xcassets */,
 				8DDA936329089C4A00DEC85D /* LaunchScreen.storyboard */,
 				8DDA936629089C4A00DEC85D /* Info.plist */,
 			);
 			path = "App do chucknorris";
+			sourceTree = "<group>";
+		};
+		8DDA936C29089F9100DEC85D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8D1F66572908A79800688E06 /* ChucknorrisModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8DDA936D29089FBD00DEC85D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8D1F66592908AEA800688E06 /* ChucknorrisViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8DDA936E29089FD800DEC85D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8DDA935C29089C4500DEC85D /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8DDA936F29089FED00DEC85D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA33C12909DF5B001DB06B /* ChucknorrisView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		8DDA93702908A01A00DEC85D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				8DDA93712908A0F100DEC85D /* ChucknorrisAPI.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DDA936929089C4A00DEC85D /* Build configuration list for PBXNativeTarget "App do chucknorris" */;
 			buildPhases = (
+				C0EDA45748234F62156358C8 /* [CP] Check Pods Manifest.lock */,
 				8DDA935129089C4500DEC85D /* Sources */,
 				8DDA935229089C4500DEC85D /* Frameworks */,
 				8DDA935329089C4500DEC85D /* Resources */,
+				09F085E3D89C81F6CA7801A3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +211,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09F085E3D89C81F6CA7801A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-App do chucknorris/Pods-App do chucknorris-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-App do chucknorris/Pods-App do chucknorris-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App do chucknorris/Pods-App do chucknorris-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0EDA45748234F62156358C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-App do chucknorris-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8DDA935129089C4500DEC85D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DDA93722908A0F100DEC85D /* ChucknorrisAPI.swift in Sources */,
 				8DDA935D29089C4500DEC85D /* ViewController.swift in Sources */,
 				8DDA935929089C4500DEC85D /* AppDelegate.swift in Sources */,
+				8D1F66582908A79800688E06 /* ChucknorrisModel.swift in Sources */,
+				8D1F665A2908AEA800688E06 /* ChucknorrisViewModel.swift in Sources */,
 				8DDA935B29089C4500DEC85D /* SceneDelegate.swift in Sources */,
+				8DAA33C22909DF5C001DB06B /* ChucknorrisView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +406,7 @@
 		};
 		8DDA936A29089C4A00DEC85D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FE37F2D51F3031F3AD297CE /* Pods-App do chucknorris.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +435,7 @@
 		};
 		8DDA936B29089C4A00DEC85D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED7EAC63AC4F4519FA2D2FB6 /* Pods-App do chucknorris.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
